@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        'https://proud-moon-14a2.yulc-coding.workers.dev': 1,
+        [location.host]: 1,
       }
     },
     // 该节点用于加载大体积的静态资源
